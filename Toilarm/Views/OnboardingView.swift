@@ -24,7 +24,7 @@ struct OnboardingView: View {
             VStack(alignment: .leading, spacing: 30) {
                 FeatureRow(
                     iconName: "alarm.fill",
-                    title: "Found Events",
+                    title: "Full control",
                     description: "Have full control over your sleep schedule, customize your alarms and never be late again!"
                 )
                 

@@ -23,21 +23,21 @@ struct OnboardingView: View {
             
             VStack(alignment: .leading, spacing: 30) {
                 FeatureRow(
-                    iconName: "envelope",
+                    iconName: "alarm.fill",
                     title: "Found Events",
-                    description: "Siri suggests events found in Mail, Messages, and Safari, so you can add them easily, such as flight reservations and hotel bookings."
+                    description: "Have full control over your sleep schedule, customize your alarms and never be late again!"
                 )
                 
                 FeatureRow(
-                    iconName: "clock",
-                    title: "Time to Leave",
-                    description: "Calendar uses Apple Maps to look up locations, traffic conditions, and transit options to tell you when it's time to leave."
+                    iconName: "toilet.fill",
+                    title: "Your body your schedule",
+                    description: "Your body is the perfect alarm you can ever desire, Toilarm is just a little helper."
                 )
                 
                 FeatureRow(
-                    iconName: "location",
-                    title: "Location Suggestions",
-                    description: "Calendar suggests locations based on your past events and significant locations."
+                    iconName: "camera.fill",
+                    title: "Shoot it then stop it",
+                    description: "Wake up, go to the bathroom, take a photo of your toilet and stop the alarm! Your body will thank you."
                 )
             }
             .padding(.horizontal, 20)
